@@ -1,0 +1,55 @@
+.nosotros {
+    .d-nosotros{
+        .d-img{
+            img{
+                width: 90%;
+            }
+            margin: 20px 0;
+            @include flex
+        }
+        .nosotros-p{
+            h2, .p-dos{
+                display: none;
+            }
+            background-color: gainsboro;
+            margin: 50px 20px 100px 20px;
+            padding: 0px 30px;
+            font-size: 20px;
+            font-style: oblique;
+            @include flex
+        }
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .nosotros{
+        .d-nostros{
+            .d-img{
+                img{
+                   width: 50%; 
+                }
+                
+            }
+            .nosotros-p{
+                .p-dos{
+                    display: block;
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nosotros{
+        .d-nosotros{
+            .d-img{
+                img{
+                    width: 65%;
+                }
+            }
+        }
+    }
+}

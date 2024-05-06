@@ -1,0 +1,154 @@
+header {
+  background-color: #C2D3F6;
+  margin: 10px 50px;
+  padding: 10px 30px;
+  display: flex;
+}
+header .bg-c {
+  background-color: #C2D3F6;
+}
+header .menu-color:hover {
+  background-color: blanchedalmond;
+}
+header img {
+  width: 25%;
+}
+header nav ul {
+  list-style: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: flex;
+  gap: 150px;
+}
+
+main h1 {
+  text-align: center;
+  color: #0072E1;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-decoration: underline;
+  margin-top: 40px;
+}
+main h1:hover {
+  color: blanchedalmond;
+}
+
+footer {
+  background-color: blanchedalmond;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 650;
+}
+
+footer:hover {
+  color: #C2D3F6;
+}
+
+.init .div-uno {
+  display: flex;
+  justify-content: center;
+}
+.init .div-uno img {
+  margin-top: 50px;
+  width: 70%;
+}
+.init .div-dos p {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.init .div-dos .p-dos, .init .div-dos .p-tres {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    background-color: #89C7B2;
+  }
+  .init .div-uno img {
+    width: 50%;
+  }
+  .init .div-dos .p-uno {
+    background-color: #89C7B2;
+    background-color: rgb(39, 92, 207);
+    color: blanchedalmond;
+    padding: 0px 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .init .div-dos .p-dos {
+    display: block;
+    text-align: center;
+    background-color: #C2D3F6;
+    padding: 0px 75px;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: rgb(39, 92, 207);
+  }
+  .init .div-uno img {
+    width: 50%;
+  }
+  .init .div-dos .p-uno {
+    background-color: rgb(39, 92, 207);
+    padding: 0px 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .init .div-dos .p-dos {
+    background-color: #89C7B2;
+  }
+  .init .div-dos .p-tres {
+    display: block;
+    text-align: center;
+    background-color: #C2D3F6;
+    padding: 0px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+.nosotros .d-nosotros .d-img {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.nosotros .d-nosotros .d-img img {
+  width: 90%;
+}
+.nosotros .d-nosotros .nosotros-p {
+  background-color: gainsboro;
+  margin: 50px 20px 100px 20px;
+  padding: 0px 30px;
+  font-size: 20px;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+.nosotros .d-nosotros .nosotros-p h2, .nosotros .d-nosotros .nosotros-p .p-dos {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .nosotros .d-nostros .d-img img {
+    width: 50%;
+  }
+  .nosotros .d-nostros .nosotros-p .p-dos {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nosotros .d-nosotros .d-img img {
+    width: 65%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
